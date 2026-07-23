@@ -1,0 +1,6 @@
+bin/
+server
+backend.exe
+*.exe
+.env
+node_modules

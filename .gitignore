@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.output/
+bin/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Credentials / secrets
+service-account.json
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Go
+*.exe
